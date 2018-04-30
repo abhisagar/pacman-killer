@@ -1,0 +1,46 @@
+
+Description:
+	This game consists of a ball that is manually controlled. There are a huge number of balls moving in the screen automatically.
+	These are the enemies. There are some enemies with planks over them.
+	The motive of the game is to score points by jumping over these enemies. Jumping over the simple enemies will give you a vertical velocity.
+	But by striking the enemies with planks, the velocity provided depends on the laws of reflection;
+	The score received by finishing enemy depends over the color of the enemy.
+	The game consists of 3 levels. The level increments if the score is made in the given time limit.
+	The player is able to autopann the game i.e the screen will move with the ball.
+	The player can also pause the game in between if he wants to.
+	The game also has a trampoline, jumping over which will boost players vertical speed.
+	There is also a pond which works using the laws of motion.
+	Porcupines are also present which when touched dissapear giving a negative score in return.
+	In level 2 and 3 the player will also face a magnet which will pull the player towards itself.
+	The game will finish either when the timer runs off or the player completes the 3rd level.
+	The player can also zoom in/out using the scroll if he wants to.
+	If the auto panning is off the player can use the arrow keys to set the desired orientation of the game by moving the screen.
+
+
+Score update:
+	Striking different color enemy gives different score.
+
+	Green 	- 	+2
+	Blue 	- 	+3
+	Brown	-	+4
+	Skyblue	-	+5
+	Yellow	-	+6
+
+	Striking porcupine 	-	-1
+
+
+Controls:
+	
+	a 		- left
+	d 		- right
+	space 	- jump
+	p 		- auto panning switch
+	u 		- pause
+	scroll	- zoom in/out 
+	q/esc 	- quit window
+
+	// works if only auto panning is off
+	left-arrow	-	screen moves left
+	right-arrow	-	screen moves right
+	up-arrow	-	screen moves up
+	down-arrow	-	screen moves down
